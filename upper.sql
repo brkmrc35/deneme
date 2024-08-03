@@ -1,0 +1,1 @@
+select name,UPPER(name) as 'BÜYÜK HARF' from musteri
