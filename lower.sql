@@ -1,0 +1,1 @@
+select name,LOWER(name) as 'KÜÇÜK HARF' from musteri
