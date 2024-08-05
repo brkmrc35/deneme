@@ -1,0 +1,1 @@
+select CITYNR,COUNT(MODEL) as 'ŞEHİRE GÖRE ARAÇ SAYISI' from PLATES group by CITYNR
