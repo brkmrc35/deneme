@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kar Oranı Hesaplayıcı</title>
+    <link rel="stylesheet" href="hesapla.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Kar Oranı Hesaplayıcı</h1>
+        <form id="calculator">
+            <label for="cost">Alış Fiyatı:</label>
+            <input type="number" id="cost" placeholder="Alış fiyatını girin" required>
+            
+            <label for="profit">Kar Oranı (%):</label>
+            <input type="number" id="profit" placeholder="Kar oranını girin" required>
+            
+            <button type="button" onclick="calculateProfit()">Hesapla</button>
+        </form>
+        
+        <div id="result"></div>
+    </div>
+
+    <script src="hesapla.js"></script>
+</body>
+</html>
