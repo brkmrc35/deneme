@@ -1,0 +1,1 @@
+select datediff(year , '1925-06-14' , '2024-08-05') as 'GÖZTEPE YAŞ'
